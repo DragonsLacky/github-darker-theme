@@ -7,12 +7,6 @@
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.dragonslacky.githubdarkertheme.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.dragonslacky.githubdarkertheme.services.MyProjectService"/>
+        <themeProvider id="com.github.dragonslacky.githubdarkertheme" path="/theme/Github_Darker.theme.json" />
     </extensions>
-
-    <applicationListeners>
-        <listener class="com.github.dragonslacky.githubdarkertheme.listeners.MyProjectManagerListener"
-                  topic="com.intellij.openapi.project.ProjectManagerListener"/>
-    </applicationListeners>
 </idea-plugin>

@@ -1,0 +1,95 @@
+{
+  "name": "Github Darker Theme vscode",
+  "dark": true,
+  "author": "Vangel",
+  "editorScheme": "/theme/Github_Darker.xml",
+  "colors": {
+    "background": "#24292E",
+    "foreground": "#D1D5DA",
+    "border": "#1B1F23",
+    "background-darker": "#1f2428",
+    "foreground-darker": "#D1D5DA",
+    "background-select": "#282E34",
+    "background-select-hover": "#282E34",
+    "background-menu": "#2F363D",
+    "background-menu-select": "#394049",
+    "separator": "#444c56",
+    "disabled": "#2F3032",
+    "inactive": "#22272d",
+    "link": "#6EB6F2",
+    "tab-underline": "#F9826C"
+  },
+  "ui": {
+    "*": {
+      "background": "background",
+      "foreground": "foreground",
+      "disabledBackground": "disabled",
+      "inactiveBackground": "inactive",
+      "selectionBackground": "background-select",
+      "selectionInactiveBackground": "background-darker",
+      "lightSelectionBackground": "background-select",
+      "lightSelectionInactiveBackground": "inactive",
+      "borderColor": "border",
+      "disabledBorderColor": "border",
+      "separatorForeground": "separator",
+      "separatorColor": "separator",
+      "lineSeparatorColor": "separator",
+      "Borders.color": "border",
+      "Borders.ContrastBorderColor": "border"
+    },
+    "PopupMenuSeparator.height": 1,
+    "PopupMenuSeparator.stripeIndent": 1,
+    "TitlePane": {
+      "background": "background-darker"
+    },
+    "Editor": {
+      "background": "background",
+      "foreground": "foreground",
+      "shortcutForeground": "link",
+      "Toolbar.borderColor": "border"
+    },
+    "Panel": {
+      "background": "background-darker",
+      "foreground": "foreground-darker"
+    },
+    "Tree": {
+      "background": "background-darker",
+      "rowHeight": 25,
+      "selectionBackground": "background-select",
+      "selectionInactiveBackground": "background-select-hover"
+    },
+    "Button.background": "transparent",
+    "CheckBox.background": "transparent",
+    "Label.background": "transparent",
+    "Menu": {
+      "background": "background-menu",
+      "borderColor": "border",
+      "selectionBackground": "background-menu-select"
+    },
+    "MenuBar" :  {
+      "borderColor": "border",
+      "selectionBackground": "background-menu-select",
+      "highlight": "background-menu-select"
+    },
+    "List":  {
+      "background": "background"
+    },
+    "EditorPane": {
+      "background": "background",
+      "selectionBackground": "background",
+      "inactiveBackground":"background",
+      "foreground": "foreground",
+      "caretForeground": "foreground"
+    },
+    "OnePixelDivider.background": "border",
+    "EditorTabs": {
+      "background": "background-darker",
+      "borderColor": "border",
+      "underlineHeight": 1,
+      "underlineColor": "tab-underline",
+      "inactiveUnderlineColor": "border",
+      "hoverBackground": "background"
+    }
+  }
+}
+
